@@ -1,6 +1,7 @@
 import './App.css';
 import Usuarios from "./componentes/Usuarios";
 import Boton from './componentes/Boton';
+import Cont from './componentes/Cont';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
     <Usuarios nombre="Laura" edad="20" color="red" localidad="CABA"/>
     
     {/*Buscar la forma de pasar el link por props */}
-    <Boton/>
+    {/*<Boton/>*/}
+    <Cont/>
     </div>
     
   );
